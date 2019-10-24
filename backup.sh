@@ -68,4 +68,4 @@ do
 done
 
 # *************** pacman List **************
-sudo pacman -Q | cut -f1 -d" " > $destination/aur_list.txt
+sudo pacman -Qq > $destination/aur_list.txt
